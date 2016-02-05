@@ -24,3 +24,21 @@
     position:relative;
     grid:1px solid black;
   }
+  td:hover{
+    height:75px;
+    width:75px;
+    background-color: rgb(170, 137, 20);
+    transition-duration: 1s;
+  }
+td{
+  height:50px;
+  width:50px;
+  background-color:rgb(24, 127, 214);
+  transition-duration: 1s;
+
+}
+table{
+  margin-right: 250px;
+  margin-bottom: 250px;
+  margin-top: 50px;
+}
