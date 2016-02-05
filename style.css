@@ -1,0 +1,26 @@
+.box1{
+  height:100px;
+  width:100px;
+  margin:10px;
+  background-color: rgb(40, 242, 11);
+  border:  1px solid black;
+  position: relative;
+}
+.diamond{
+  position:relative;
+  height:100px;
+  width:100px;
+  margin:10px;
+  background-color: rgb(127, 181, 94);
+  border:  1px solid black;
+  transform: rotate(45deg);
+  transform-origin: 0 100%;
+}
+  .table{
+    float: right;
+    position: relative;
+    border: 1px solid black;
+    background-color: rgb(19, 236, 145);
+    position:relative;
+    grid:1px solid black;
+  }
