@@ -1,3 +1,10 @@
+
+.container{
+  position:absolute;
+  height:1000px;
+  width:1000px;
+  background-color: rgba(19, 208, 66, 0.5)
+}
 .box1{
   height:100px;
   width:100px;
@@ -17,12 +24,14 @@
   transform-origin: 0 100%;
 }
   .table{
-    float: right;
+    position: sticky;
     position: relative;
     border: 1px solid black;
     background-color: rgb(19, 236, 145);
     position:relative;
     grid:1px solid black;
+    margin-left: 35%;
+    margin-bottom:55%;
   }
   td:hover{
     height:75px;
